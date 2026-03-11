@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة تسجيل الدخول</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide@1.6.0/dist/lucide.min.css">
+</head>
+<body>
+    <div class="container mx-auto p-4 pt-6 mt-10 bg-gray-900 rounded-lg shadow-lg">
+        <h1 class="text-3xl text-white text-center mb-4">تسجيل الدخول</h1>
+        <form>
+            <div class="mb-4">
+                <label for="email" class="block text-white text-sm font-bold mb-2">الإيميل</label>
+                <input type="email" id="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+            </div>
+            <div class="mb-4">
+                <label for="password" class="block text-white text-sm font-bold mb-2">كلمة المرور</label>
+                <input type="password" id="password" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+            </div>
+            <div class="mb-4">
+                <label for="confirm-password" class="block text-white text-sm font-bold mb-2">تأكيد كلمة المرور</label>
+                <input type="password" id="confirm-password" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+            </div>
+            <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">تسجيل الدخول</button>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
